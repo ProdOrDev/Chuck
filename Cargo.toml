@@ -1,0 +1,19 @@
+[workspace]
+
+resolver = "2"
+members = [
+  "crates/cpu"
+]
+
+[workspace.lints.rust]
+unsafe_code = "forbid"
+missing_docs = "deny"
+
+[workspace.lints.clippy]
+pedantic = "deny"
+nursery = "deny"
+
+missing_const_for_fn = "allow"
+
+[profile.dev]
+overflow-checks = false

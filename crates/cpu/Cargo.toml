@@ -1,0 +1,10 @@
+[package]
+name = "chuck-cpu"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bitflags = "2.6.0"
+
+[lints]
+workspace = true
